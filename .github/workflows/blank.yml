@@ -10,9 +10,9 @@ jobs:
          - name: Rational Test Automation Server GitHub Action
            uses: IBM/devopsauto-testserver-actions@v1
            with:
-            serverUrl: https://master-hcl.tp-k8s.nonprod.hclpnp.com/
-            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI2NDVhMmFmOS1jOWNhLTQ1ZTktOTM3Ny01OTcyMGMyZGVmNTUifQ.eyJpYXQiOjE3MDY1MjY5MTgsImp0aSI6IjBhMjE2MjY4LWZkNGEtNDUzYi1hN2UwLWY2MzdmNTI1MzIyMSIsImlzcyI6Imh0dHBzOi8vbWFzdGVyLWhjbC50cC1rOHMubm9ucHJvZC5oY2xwbnAuY29tL2F1dGgvcmVhbG1zL3Rlc3RzZXJ2ZXIiLCJhdWQiOiJodHRwczovL21hc3Rlci1oY2wudHAtazhzLm5vbnByb2QuaGNscG5wLmNvbS9hdXRoL3JlYWxtcy90ZXN0c2VydmVyIiwic3ViIjoiNjVmOTdlNWMtODYxMy00NzAxLWEzMWQtZGY4ZjMyOTk1ZTFiIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6InRlc3RzZXJ2ZXIiLCJzZXNzaW9uX3N0YXRlIjoiYmUzNjJmYjItZmFiMC00M2IzLWJlYzUtNTI5ODA2MDAwZmQ0Iiwic2NvcGUiOiJvZmZsaW5lX2FjY2VzcyBwcm9maWxlIGVtYWlsIiwic2lkIjoiYmUzNjJmYjItZmFiMC00M2IzLWJlYzUtNTI5ODA2MDAwZmQ0In0.6UqyDmPnAH4YgCG-9XJlT0pQX6n74zfRV8Xhx3YXRNY
+            serverUrl: https://10.134.59.236.nip.io/
+            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJmYWE5N2Y4OS05MTQyLTRhNDctOTM5NS0xODgyOWNmZWY1MTQifQ.eyJpYXQiOjE3MDY1Mzg5NjQsImp0aSI6IjY5MjRkNzM2LTRlODEtNDRlNS1hMjc2LTgwY2ZmYWVmYThmMSIsImlzcyI6Imh0dHBzOi8vMTAuMTM0LjU5LjIzNi5uaXAuaW8vYXV0aC9yZWFsbXMvdGVzdHNlcnZlciIsImF1ZCI6Imh0dHBzOi8vMTAuMTM0LjU5LjIzNi5uaXAuaW8vYXV0aC9yZWFsbXMvdGVzdHNlcnZlciIsInN1YiI6Ijc5ZGNjMDI2LWU0M2EtNDkxYS1iMDQ3LTllZTFjMjY4NmMwOSIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJ0ZXN0c2VydmVyIiwic2Vzc2lvbl9zdGF0ZSI6ImVkM2JiMWFhLTM2ZTctNDBmMC1iZjQ4LTY4ODFiNThhODRkNyIsInNjb3BlIjoicHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsInNpZCI6ImVkM2JiMWFhLTM2ZTctNDBmMC1iZjQ4LTY4ODFiNThhODRkNyJ9.67NK_ICjAKF2WgTHEX0JitTI847g3caa9rdsEYy_zus
             teamspace: Initial Team Space
-            project: ProjectTest
+            project: TestProject-P
             branch: master
-            assetId: 6f53d796-9e65-4d2a-93d7-969e655d2af0
+            assetId: 458db6eb-7042-41c6-8db6-eb7042f1c6e0
