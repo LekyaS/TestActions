@@ -10,6 +10,6 @@ jobs:
          - name: HCL DevOps Test UI GitHub Action
            uses: LekyaS/-devops-test-ui-action@Test
            with:
-            workspace: C:\Users\preethi.as\IBM\devopstest\workspace
+            workspace: C:\Users\preethi.as\IBM\devopstest\workspace\
             project: webproject
             suite: test2
