@@ -8,7 +8,7 @@ jobs:
         runs-on: self-hosted
         steps:
          - name: HCL DevOps Test UI GitHub Action
-           uses: LekyaS/-devops-test-ui-action@Test
+           uses: LekyaS/-onetest-web-action-testing@testing-webui
            with:
             workspace: C:\Users\preethi.as\IBM\devopstest\workspace\
             project: webproject
