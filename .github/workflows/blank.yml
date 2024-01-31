@@ -1,18 +1,15 @@
-name: Rational Test Automation Server
+name: HCL OneTest WEBUI
 
 on: workflow_dispatch
 
 jobs:
-    OTS-Action:
+    WebUI-Action:
+        name: HCL DevOps Test UI GitHub Action
         runs-on: self-hosted
-        name: Rational Test Automation Server GitHub Action
         steps:
-         - name: Rational Test Automation Server GitHub Action
-           uses: IBM/devopsauto-testserver-actions@v1
+         - name: HCL DevOps Test UI GitHub Action
+           uses: LekyaS/-devops-test-ui-action@Test
            with:
-            serverUrl: https://10.134.59.236.nip.io/
-            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJmYWE5N2Y4OS05MTQyLTRhNDctOTM5NS0xODgyOWNmZWY1MTQifQ.eyJpYXQiOjE3MDY1Mzg5NjQsImp0aSI6IjY5MjRkNzM2LTRlODEtNDRlNS1hMjc2LTgwY2ZmYWVmYThmMSIsImlzcyI6Imh0dHBzOi8vMTAuMTM0LjU5LjIzNi5uaXAuaW8vYXV0aC9yZWFsbXMvdGVzdHNlcnZlciIsImF1ZCI6Imh0dHBzOi8vMTAuMTM0LjU5LjIzNi5uaXAuaW8vYXV0aC9yZWFsbXMvdGVzdHNlcnZlciIsInN1YiI6Ijc5ZGNjMDI2LWU0M2EtNDkxYS1iMDQ3LTllZTFjMjY4NmMwOSIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJ0ZXN0c2VydmVyIiwic2Vzc2lvbl9zdGF0ZSI6ImVkM2JiMWFhLTM2ZTctNDBmMC1iZjQ4LTY4ODFiNThhODRkNyIsInNjb3BlIjoicHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsInNpZCI6ImVkM2JiMWFhLTM2ZTctNDBmMC1iZjQ4LTY4ODFiNThhODRkNyJ9.67NK_ICjAKF2WgTHEX0JitTI847g3caa9rdsEYy_zus
-            teamspace: Initial Team Space
-            project: TestProject-P
-            branch: master
-            assetId: 458db6eb-7042-41c6-8db6-eb7042f1c6e0
+            workspace: C:\Users\preethi.as\IBM\devopstest\workspace
+            project: webproject
+            suite: test2
